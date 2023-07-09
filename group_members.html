@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Thomas Fermi Quark Model Grou</title>
+    <title>Thomas Fermi Quark Model Group</title>
     <style>
         header {
             background-color: #f2f2f2;
@@ -30,6 +30,33 @@
         nav ul li a:hover {
             background-color: #ccc;
         }
+
+        section#group-members {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-start;
+        }
+
+        section#group-members ul {
+            margin: 0;
+            padding: 0;
+            flex: 1 0 100%;
+        }
+
+        section#group-members li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        section#group-members li img {
+            margin-right: 10px;
+        }
+
+        .profile-image {
+            width: 100px; /* Adjust the width as needed */
+            height: auto; /* Preserve aspect ratio */
+        }
     </style>
 </head>
 <body>
@@ -47,67 +74,59 @@
         </nav>
     </header>
 
-    <section id="Group Members">
-<style>
-  .profile-image {
-    width: 100px; /* Adjust the width as needed */
-    height: auto; /* Preserve aspect ratio */
-    margin-left: 10px; /* Add some margin for spacing */
-  }
-</style>
-<p>
-  <strong>Principal Investigators:</strong>
-  <ul>
-    <li>
-      <strong>Dr. Walter Wilcox</strong><br>
-      Professor, Baylor University, USA<br>
-      walter_wilcox@baylor.edu<br>
-        <a href="https://scholar.google.com/citations?user=rimZ1LMAAAAJ&hl=en">Google Scholar</a> <br>
-      <img class="profile-image" src="walter.jpg" alt="Walter">
-    </li>
-    <li>
-      <strong>Dr. Gopi Chandra Kaphle</strong><br>
-      Associate Professor, Tribhuvan University, Nepal<br>
-      gck223@gmail.com<br>
-        <a href="https://scholar.google.co.in/citations?user=gy5P5aMAAAAJ&hl=en">Google Scholar</a> <br>
-      <img class="profile-image" src="gopi.jpg" alt="Gopi">
-    </li>
-    <li>
-      <strong>Dr. Suman Baral</strong><br>
-      Lecturer, Niagra Falls Community College, USA<br>
-      sumanbaral1@gmail.com<br>
-        <a href="https://scholar.google.com/citations?user=quD-1GAAAAAJ&hl=en">Google Scholar</a> <br>
-      <img class="profile-image" src="suman.jpg" alt="Suman">
-    </li>
-  </ul>
-</p>
+    <section id="group-members">
+        <p>
+            <strong>Principal Investigators:</strong>
+            <ul>
+                <li>
+                    <img class="profile-image" src="walter.jpg" alt="Walter">
+                    <strong>Dr. Walter Wilcox</strong><br>
+                    Professor, Baylor University, USA<br>
+                    walter_wilcox@baylor.edu<br>
+                    <a href="https://scholar.google.com/citations?user=rimZ1LMAAAAJ&hl=en">Google Scholar</a><br>
+                </li>
+                <li>
+                    <img class="profile-image" src="gopi.jpg" alt="Gopi">
+                    <strong>Dr. Gopi Chandra Kaphle</strong><br>
+                    Associate Professor, Tribhuvan University, Nepal<br>
+                    gck223@gmail.com<br>
+                    <a href="https://scholar.google.co.in/citations?user=gy5P5aMAAAAJ&hl=en">Google Scholar</a><br>
+                </li>
+                <li>
+                    <img class="profile-image" src="suman.jpg" alt="Suman">
+                    <strong>Dr. Suman Baral</strong><br>
+                    Lecturer, Niagra Falls Community College, USA<br>
+                    sumanbaral1@gmail.com<br>
+                    <a href="https://scholar.google.com/citations?user=quD-1GAAAAAJ&hl=en">Google Scholar</a><br>
+                </li>
+            </ul>
+        </p>
 
-<p>
-  <strong>Researchers:</strong>
-  <ul>
-    <li>
-      <strong>Mohan Giri</strong><br>
-      PhD Scholar, Baylor University, USA<br>
-      mohangiri56@gmail.com<br>
-        <a href="https://scholar.google.com/citations?hl=en&user=J9vv56IAAAAJ">Google Scholar</a> <br>
-      <img class="profile-image" src="mohan.jpg" alt="Mohan">
-    </li>
-    <li>
-      <strong>Nirmal Dangi</strong><br>
-      PhD Scholar, Steven Institute of Technology, USA<br>
-      nirmal.dangi2@gmail.com<br>
-        <a href="https://scholar.google.com/citations?user=hg7VhvEAAAAJ&hl=en">Google Scholar</a> <br>
-      <img class="profile-image" src="nirmal.jpg" alt="Nirmal">
-    </li>
-    <li>
-      <strong>Bipin Aryal</strong><br>
-      Lecturer, CCRC, Nepal<br>
-      bipinaryal46@gmail.com<br>
-      <img class="profile-image" src="bipin.jpg" alt="Bipin">
-    </li>
-  </ul>
-</p>
-
+        <p>
+            <strong>Researchers:</strong>
+            <ul>
+                <li>
+                    <img class="profile-image" src="mohan.jpg" alt="Mohan">
+                    <strong>Mohan Giri</strong><br>
+                    PhD Scholar, Baylor University, USA<br>
+                    mohangiri56@gmail.com<br>
+                    <a href="https://scholar.google.com/citations?hl=en&user=J9vv56IAAAAJ">Google Scholar</a><br>
+                </li>
+                <li>
+                    <img class="profile-image" src="nirmal.jpg" alt="Nirmal">
+                    <strong>Nirmal Dangi</strong><br>
+                    PhD Scholar, Steven Institute of Technology, USA<br>
+                    nirmal.dangi2@gmail.com<br>
+                    <a href="https://scholar.google.com/citations?user=hg7VhvEAAAAJ&hl=en">Google Scholar</a><br>
+                </li>
+                <li>
+                    <img class="profile-image" src="bipin.jpg" alt="Bipin">
+                    <strong>Bipin Aryal</strong><br>
+                    Lecturer, CCRC, Nepal<br>
+                    bipinaryal46@gmail.com<br>
+                </li>
+            </ul>
+        </p>
     </section>
 
     <footer>
@@ -115,3 +134,4 @@
     </footer>
 </body>
 </html>
+
